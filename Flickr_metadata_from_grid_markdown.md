@@ -24,26 +24,25 @@ manage and install plugins -Search for OpenLayers Plugin and install.
 -From there open the web tab, openlayers plugin and load any of the
 baselayer(just a quick way to see your area of interst)
 
-![](E:/PhD_files/Scripts/R/API_pulls/Grid_trial/OpenLayers.png)
 ![](Image_folder/OpenLayers.png?raw=true)
 
 Now you should see a map of some form. Zoom to your area of interest.
 Then click on the change crs(EPSG:something,something)
-![](E:/PhD_files/Scripts/R/API_pulls/Grid_trial/change_crs.png)
+
 ![](Image_folder/change_crs.png?raw=true)
 Now change this to WGS84, EPSG:4326
-![](E:/PhD_files/Scripts/R/API_pulls/Grid_trial/changing_crs.png)
+
 ![](Image_folder/changing_crs.png?raw=true)
 Now we can start to make our grid. Click Vectors -\> Research Tool -\>
 Create Grid
 
-![](E:/PhD_files/Scripts/R/API_pulls/Grid_trial/create_grid.png)
+
 ![](Image_folder/create_grid.png?raw=true)
 In the Create Grid dialog box, change the grid type to
 Rectangle(polygon). Then for grid extent, click the … on the right and
 click Select Extent on Canvas.
 
-![](E:/PhD_files/Scripts/R/API_pulls/Grid_trial/Select_on_canvas.png)
+
 ![](Image_folder/Select_on_canvas.png?raw=true)
 Now drag a box over your area of interest. For horizontal and vertical
 spacing, if there is a city or popular spot to photograph in your area,
@@ -54,7 +53,8 @@ per grid cell low enough to not exceed the API limit.
 After clicking OK, you should now have a grid. Woohoo
 
 Now right click the Grid bar on the left, click export then save feature
-as. ![](E:/PhD_files/Scripts/R/API_pulls/Grid_trial/Save_as.png)
+as. 
+
 ![](Image_folder/Save_as.png?raw=true)
 Now save as a comma separated value (CSV) and save your new grid to
 where your R work directory will be.
