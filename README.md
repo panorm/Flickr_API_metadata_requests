@@ -6,4 +6,4 @@ These scripts use the RCurl, rjson and RJSONIO packages.
 
 Both scripts require a API key and secret which are available from https://www.flickr.com/services/apps/create/
 
-For the grid request, there is also a markdown sheet it was found that QGIS was 
+For the grid request, there is also a markdown sheet that provides information on how to get the grid cell extents via QGIS.
