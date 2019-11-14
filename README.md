@@ -1,4 +1,4 @@
-# Flickr_API_requests
+# Flickr_API_metadata_requests
 This repository contains R scripts to retrieve Flickr image metadata using both search terms or geographic extent.
 The script was adapted from one written by Chelsey Walden-Schreiner (https://github.com/cwaldenschreiner/geotag), which in turn originated
 from Fredheim, R. (2015). Digital data collection course retrieved from http://www.r-bloggers.com/digital-data-collection-course/. 
