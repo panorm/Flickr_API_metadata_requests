@@ -3,9 +3,6 @@ Flickr API request by grid
 P.Norman
 May 13, 2019
 
-\#\#Background This is a little add on to the incredible Flickr API geo
-request R script written by Chelsea Walden.
-
 The purpose of this script is to allow you to collect a large amount of
 Flickr image metadata from a wide area (across a state or small country
 size), without exceeding the allowed pages and image amounts imposed
