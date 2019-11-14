@@ -6,7 +6,7 @@ May 13, 2019
 The purpose of this script is to allow you to collect a large amount of
 Flickr image metadata from a wide area (across a state or small country
 size), without exceeding the allowed pages and image amounts imposed
-from the API. To to this we will create a grid using QGIS (easiest
+from the API. To do this we will create a grid using QGIS (seems to be the easiest
 option) then use the extent of each grid cell to return the images
 within that area, then move onto the next cell.
 
